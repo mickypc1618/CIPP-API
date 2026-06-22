@@ -25,7 +25,7 @@ jobs:
         id: fa
         with:
           app-name: 'cippjta72'
-          slot-name: 'Production'
+          #slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
           publish-profile: ${{ secrets.AZURE_FUNCTIONAPP_PUBLISH_PROFILE }}
           sku: 'flexconsumption'
